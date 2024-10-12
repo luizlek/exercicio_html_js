@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom,
+body {
+    background-color: #fff;
+    display: flex;
+    margin: 25px;
+    padding: 0 150px;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(139, 92, 183);
+    color: rgb(65, 64, 64);
+}
+
+header h1 {
+    color: #fff;
+}
+
+.custom {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom {
+    width: 20%;
+    display: block;
+    align-items: center;
+    border-radius: 1%;
+    outline: none;
+}
+
+.form input {
+    display: flex;
+    margin: 8px;
+}
+
+.sucess-message {
+    background-color: greenyellow;
+    color: black;
+    visibility: hidden;
+}
+
+.error-message {
+    background-color: red;
+    color: black;
+    visibility: hidden;
+}

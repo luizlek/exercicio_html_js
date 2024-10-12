@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <h1>
+            <b>Formúlário de validação de valores.</b>
+        </h1>
+        <div class="custom">
+            <nav>
+                <div>
+                </b>
+                    <h2>Os campos a seguir devem receber os valores para validação.</h2>
+                    <form id="form-um">
+                        <ul>
+                            <li>
+                                <b>
+                                <label>Primeiro valor: </label>
+                                <input id="numUm" type="number" placeholder="Primeiro valor" required >
+                                <label>Segundo valor: </label>
+                                <input id="numDois" type="number" placeholder="Segundo valor" required >
+                                <button type="submit">Enviar</button></b>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div id="sucess" class="sucess-message">
+            <p>Valido! O segundo valor é maior que o primeiro.</p>
+        </div>
+        <div id="error" class="error-message">
+            <p>Invalido! O primeiro valor é maior que o segundo.</p>
+        </div>
+    </header>
+<script src="./main.js"></script>
+</body> 
+</html>
